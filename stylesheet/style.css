@@ -1,0 +1,100 @@
+body 
+{
+    color:#7AAE7A;
+}
+
+@media screen and (max-width : 1043px)
+{
+    .logo
+    {
+        margin: 10px;
+        background-image: '../img/thanarak.gif';
+        width:50px;
+        height:50px;
+    }
+    .header
+    {
+        display:none;
+    }
+    .col-md-2 > b 
+    {
+        display:inline;
+    }
+    .fixed > .welcome
+    {
+        display:none;
+        visibility: hidden;
+    }
+
+
+}
+
+.header
+{
+    font-size: 50px;
+    padding:37px;
+}
+.logo
+{
+    margin: 20px;
+}
+.col-md-2 > b 
+{
+    display: none;
+}
+.welcome
+{
+    background: #E1E9BD;
+    margin-bottom: 40px;
+    height: 475px; 
+    width: 551px;
+}
+
+.welcome > .txt-welcome
+{
+    padding:30px;
+    font-size: 1cm;
+    text-align: center;
+}
+.userwelcome
+{
+    padding:20px;
+    font-size: 53px;
+    text-align: center;
+}
+
+.login
+{
+    background: #E1E9BD;
+    border-top-right-radius: 25px;
+}
+
+.form
+{
+    padding:36px;
+    padding-top:60px;
+
+}
+.edge-bottom {
+    background: #7AAE7A;
+    padding-left: 1.8em;
+    height: 7px;
+}
+
+.btn{
+    background: #7AAE7A;
+    margin-top:10px;
+    width:100%;
+    height:50px;
+    border-bottom-left-radius: 25px;
+    border-color: #7AAE7A;
+}
+
+.btn:hover{
+    background: #4CAF50;
+    margin-top:10px;
+    width:100%;
+    height:50px;
+    border-bottom-left-radius: 25px;
+    border-color: #4CAF50;
+}

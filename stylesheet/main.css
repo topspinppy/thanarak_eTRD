@@ -1,0 +1,27 @@
+body 
+{
+    color:#7AAE7A;
+}
+
+.header-text
+{
+    text-align: center;
+    padding: 0px;
+    font-size: 80px;
+    color: #626e84;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:15px;
+    font-size: 35px;
+}
+
+.btn > .btn-lg
+{
+    width: 348px;
+}
